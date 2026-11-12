@@ -40,8 +40,6 @@ It is possible to test the executable using the input card `posher.input` found 
 ./pwhg_main
 ```
 
-
-
 ### HEPMC3
 To install HepMC3, use:
 ```bash
@@ -73,5 +71,25 @@ There are seven folders each with distinct purposes:
 ## Standalone PYTHIA
 
 ## PYTHIA + POWHEG
+### Setting up POWHEG for PYTHIA
+Copy `W/pwhg_main` and `W/testrun-wp-lhc/powheg.input` into `powheg-run`.
+Copy `W/cteq6m` into 'powheg-run`.
+Run the executable using:
+```bash
+./pwhg_main
+```
+### Using POWHEG and PYTHIA
+Copy `pwgevents.lhe` into `data/lhe`.
+Enter into the `alice-simulation` directory again:
+```bash
+cd ~/alice-simulation
+```
+The `generate_w.cc` application can read an LHE file using:
+```bash
+./build/generate_w lhe
+data/lhe/<name-of-lhe-file>.lhe
+data/hepmc/<name-of-hepmc-file>.hepmc
+1000
+```
 
 ## Conversion to HEPMC3
