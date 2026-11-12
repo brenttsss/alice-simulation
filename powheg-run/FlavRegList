@@ -1,0 +1,108 @@
+   b~ (g )  ==>   mu  vm  c~  | mult=  1
+   b~  c    ==>   mu  vm  | uborn, mult=  1
+  2 5
+   b~ (g )  ==>   mu  vm  u~  | mult=  1
+   b~  u    ==>   mu  vm  | uborn, mult=  1
+  2 5
+  (b~  u )  ==>   mu  vm  g   | mult=  1
+   b~  u    ==>   mu  vm  | uborn, mult=  1
+  0 5
+  (b~  c )  ==>   mu  vm  g   | mult=  1
+   b~  c    ==>   mu  vm  | uborn, mult=  1
+  0 5
+   s~ (g )  ==>   mu  vm  c~  | mult=  1
+   s~  c    ==>   mu  vm  | uborn, mult=  1
+  2 5
+   s~ (g )  ==>   mu  vm  u~  | mult=  1
+   s~  u    ==>   mu  vm  | uborn, mult=  1
+  2 5
+  (s~  u )  ==>   mu  vm  g   | mult=  1
+   s~  u    ==>   mu  vm  | uborn, mult=  1
+  0 5
+  (s~  c )  ==>   mu  vm  g   | mult=  1
+   s~  c    ==>   mu  vm  | uborn, mult=  1
+  0 5
+   d~ (g )  ==>   mu  vm  c~  | mult=  1
+   d~  c    ==>   mu  vm  | uborn, mult=  1
+  2 5
+   d~ (g )  ==>   mu  vm  u~  | mult=  1
+   d~  u    ==>   mu  vm  | uborn, mult=  1
+  2 5
+  (d~  u )  ==>   mu  vm  g   | mult=  1
+   d~  u    ==>   mu  vm  | uborn, mult=  1
+  0 5
+  (d~  c )  ==>   mu  vm  g   | mult=  1
+   d~  c    ==>   mu  vm  | uborn, mult=  1
+  0 5
+  (g ) b~   ==>   mu  vm  c~  | mult=  1
+   c   b~   ==>   mu  vm  | uborn, mult=  1
+  1 5
+  (g ) b~   ==>   mu  vm  u~  | mult=  1
+   u   b~   ==>   mu  vm  | uborn, mult=  1
+  1 5
+  (g ) s~   ==>   mu  vm  c~  | mult=  1
+   c   s~   ==>   mu  vm  | uborn, mult=  1
+  1 5
+  (g ) s~   ==>   mu  vm  u~  | mult=  1
+   u   s~   ==>   mu  vm  | uborn, mult=  1
+  1 5
+  (g ) d~   ==>   mu  vm  c~  | mult=  1
+   c   d~   ==>   mu  vm  | uborn, mult=  1
+  1 5
+  (g ) d~   ==>   mu  vm  u~  | mult=  1
+   u   d~   ==>   mu  vm  | uborn, mult=  1
+  1 5
+  (g ) u    ==>   mu  vm  d   | mult=  1
+   d~  u    ==>   mu  vm  | uborn, mult=  1
+  1 5
+  (g ) u    ==>   mu  vm  s   | mult=  1
+   s~  u    ==>   mu  vm  | uborn, mult=  1
+  1 5
+  (g ) u    ==>   mu  vm  b   | mult=  1
+   b~  u    ==>   mu  vm  | uborn, mult=  1
+  1 5
+  (g ) c    ==>   mu  vm  d   | mult=  1
+   d~  c    ==>   mu  vm  | uborn, mult=  1
+  1 5
+  (g ) c    ==>   mu  vm  s   | mult=  1
+   s~  c    ==>   mu  vm  | uborn, mult=  1
+  1 5
+  (g ) c    ==>   mu  vm  b   | mult=  1
+   b~  c    ==>   mu  vm  | uborn, mult=  1
+  1 5
+  (u   b~)  ==>   mu  vm  g   | mult=  1
+   u   b~   ==>   mu  vm  | uborn, mult=  1
+  0 5
+  (u   s~)  ==>   mu  vm  g   | mult=  1
+   u   s~   ==>   mu  vm  | uborn, mult=  1
+  0 5
+  (u   d~)  ==>   mu  vm  g   | mult=  1
+   u   d~   ==>   mu  vm  | uborn, mult=  1
+  0 5
+   u  (g )  ==>   mu  vm  d   | mult=  1
+   u   d~   ==>   mu  vm  | uborn, mult=  1
+  2 5
+   u  (g )  ==>   mu  vm  s   | mult=  1
+   u   s~   ==>   mu  vm  | uborn, mult=  1
+  2 5
+   u  (g )  ==>   mu  vm  b   | mult=  1
+   u   b~   ==>   mu  vm  | uborn, mult=  1
+  2 5
+  (c   b~)  ==>   mu  vm  g   | mult=  1
+   c   b~   ==>   mu  vm  | uborn, mult=  1
+  0 5
+  (c   s~)  ==>   mu  vm  g   | mult=  1
+   c   s~   ==>   mu  vm  | uborn, mult=  1
+  0 5
+  (c   d~)  ==>   mu  vm  g   | mult=  1
+   c   d~   ==>   mu  vm  | uborn, mult=  1
+  0 5
+   c  (g )  ==>   mu  vm  d   | mult=  1
+   c   d~   ==>   mu  vm  | uborn, mult=  1
+  2 5
+   c  (g )  ==>   mu  vm  s   | mult=  1
+   c   s~   ==>   mu  vm  | uborn, mult=  1
+  2 5
+   c  (g )  ==>   mu  vm  b   | mult=  1
+   c   b~   ==>   mu  vm  | uborn, mult=  1
+  2 5

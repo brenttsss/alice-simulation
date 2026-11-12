@@ -1,0 +1,6 @@
+external/HepMC3
+external/POWHEG-BOX
+external/POWHEG-BOX-RES
+
+*.lhe
+*.hepmc

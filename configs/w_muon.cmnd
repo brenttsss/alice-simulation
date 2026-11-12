@@ -1,0 +1,30 @@
+! Proton-proton collisions
+Beams:idA = 2212
+Beams:idB = 2212
+
+! pp collisions at sqrt(s) = 13.6 TeV
+Beams:eCM = 13600.
+
+! Charged-current Drell-Yan W production (i.e., single W+ and W- production)
+WeakSingleBoson:ffbar2W = on
+
+! Disable other W decay modes
+24:onMode = off
+
+! Enable W -> mu nu_mu
+! Charge-conjugate decay is included
+24:onIfAny = 13 14
+
+! Simulation settings
+PartonLevel:MPI = on
+HadronLevel:all = on
+
+! Random seed
+Random:setSeed = on
+Random:seed = 12345
+
+! Reduce terminal output
+Init:showChangedSettings = on
+Next:numberShowEvent = 0
+Next:numberShowInfo = 0
+Next:numberShowProcess = 0

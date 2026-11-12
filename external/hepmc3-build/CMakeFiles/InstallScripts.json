@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/brentonsuriah/alice-simulation/external/hepmc3-build/cmake_install.cmake",
+		"/Users/brentonsuriah/alice-simulation/external/hepmc3-build/search/cmake_install.cmake",
+		"/Users/brentonsuriah/alice-simulation/external/hepmc3-build/rootIO/cmake_install.cmake",
+		"/Users/brentonsuriah/alice-simulation/external/hepmc3-build/python/cmake_install.cmake",
+		"/Users/brentonsuriah/alice-simulation/external/hepmc3-build/python/A/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
