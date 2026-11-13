@@ -68,9 +68,19 @@ There are seven folders each with distinct purposes:
 - `powheg-run/`
   Clean workspace for POWHEG job execution
 
-## Standalone PYTHIA
+## PYTHIA + HEPMC3
+To run a W-boson muon decay, run:
+```bash
+./build/generate_w \
+Pythia \
+config/w_muon.cmnd \
+data/hepmc/w_muon_pythia.hepmc \
+N
+```
+where `N` is the number of events.
+This produces an event file that can be tested with ALICE O2 independently of POWHEG.
 
-## PYTHIA + POWHEG
+## PYTHIA + POWHEG + HEPMC3
 ### Setting up POWHEG for PYTHIA
 Copy `W/pwhg_main` and `W/testrun-wp-lhc/powheg.input` into `powheg-run`.
 Copy `W/cteq6m` into 'powheg-run`.
