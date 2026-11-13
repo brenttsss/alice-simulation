@@ -96,10 +96,12 @@ cd ~/alice-simulation
 ```
 The `generate_w.cc` application can read an LHE file using:
 ```bash
-./build/generate_w lhe
-data/lhe/<name-of-lhe-file>.lhe
+./build/generate_w \
+lhe \
+data/lhe/<name-of-lhe-file>.lhe \
 data/hepmc/<name-of-hepmc-file>.hepmc
-1000
+N
 ```
+where `N` is the number of events.
 
 ## Conversion to HEPMC3
