@@ -28,3 +28,12 @@ Init:showChangedSettings = on
 Next:numberShowEvent = 0
 Next:numberShowInfo = 0
 Next:numberShowProcess = 0
+
+! PYTHIA debugging configurations
+Check:event = on
+Print:verbosity = 3
+Next:numberCount = 1
+Next:numberShowLHA = 3
+Next:numberShowInfo = 3
+Next:numberShowProcess = 3
+Next:numberShowEvent = 3
